@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".powers">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        android:textColor="#3F51B5"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/Attack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attack"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF5722"
+        />
+
+    <TextView
+        android:id="@+id/Defence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deffence"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#EEBA00"/>
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"/>
+</LinearLayout>
